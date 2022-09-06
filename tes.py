@@ -100,7 +100,7 @@ with st.sidebar:
 
     profession = st.selectbox(
      'Who are you looking for?',
-     ("", 'A loyal friend', 'A romantic partner', 'A mentor', 'A relative'))
+     ("", 'A loyal friend', 'A romantic partner', 'A mentor'))
 
 with body:
     st.title("SOUL - MATE with GPT-3")
