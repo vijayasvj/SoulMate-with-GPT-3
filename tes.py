@@ -1,13 +1,7 @@
-from cmd import PROMPT
-from contextlib import ContextDecorator
-from http.client import responses
-from xmlrpc.client import boolean
 import requests
-import json
 import openai
 import streamlit as st
 from streamlit_chat import message
-import random
 from streamlit_lottie import st_lottie
 
 
